@@ -7,7 +7,7 @@ h1 {
 p {color: #000;
 text-align: center;
 font-family: Playfair Display;
-font-size: 72px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -16,4 +16,10 @@ line-height: normal;
 body {
     width: 1024px;
     margin:auto;
+}
+
+h2 {
+    color:#000;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px
 }
