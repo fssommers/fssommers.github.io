@@ -5,18 +5,23 @@
     }
 
 h1 {
-    color:#D9D9D9;
+    color:#000000;
     font-family: 'Playfair Display', serif;
-    font-size: 60px;
+    font-size: 72px;
+    width: 632px;
+    text-align:center;
 }
 
 p {color: #000;
-text-align: center;
+text-align: left;
 font-family: 'Playfair Display', serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+/* margin-left: 184px; */
+margin-top: 33px;
+width: 358px;
 }
 
 body {
@@ -27,13 +32,28 @@ body {
 h2 {
     color:#000;
     font-family: 'Playfair Display', serif;
-    font-size: 42px;
+    font-size: 48px;
     text-align:center;
+    margin: 25px;
 }
 
 #letterform-character {
     color: #000;
     font-family: 'Playfair Display', serif;
-    font-size: 500px;
+    font-size: 600px;
     text-align:center;
+    margin-top: -125px;
+    margin-bottom:-100px;
+}
+
+h5 {
+    color:#000;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+h6 {
+    color:#000;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
 }
