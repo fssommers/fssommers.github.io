@@ -21,7 +21,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-left: 184px;
-margin-top: 33px;
+/* margin-top: 33px; */
 width: 301px;
 }
 
@@ -52,14 +52,18 @@ h5 {
     color:#000;
     font-family: 'Playfair Display', serif;
     font-size: 18px;
-    margin: 10 0;
+    margin: 0 0 10;
+    width:204px;
+    height: 24px;
 }
 
 h6 {
     color:#000;
     font-family: 'Playfair Display', serif;
-    font-size: 18px;
+    font-size: 12px;
     margin: 10 0;
+    font-weight: 400;
+    height: 48px;
 }
 
 h3 {
@@ -148,4 +152,25 @@ height: 8px;
 
 ::-webkit-scrollbar-thumb {
     background: rgb(112, 112, 112);
+}
+
+/* Bottom Section */
+
+.photo-title img {
+    height: 81px;
+    width: 81px;
+    margin-right: 18px;
+}
+
+.row {
+    display:flex;
+    margin-top: 33px;
+}
+
+.person-info {
+    display:flex;
+    margin-left:52px;
+    justify-content: center;
+    /* align-items: center; */
+    /* width:303px; */
 }
